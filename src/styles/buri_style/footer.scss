@@ -1,0 +1,140 @@
+footer {
+    width: 100%;
+    background-color: #1c1a18;
+    padding: 100px 0px 25px;
+
+    .footer-logo {
+        margin-bottom: 20px;
+
+        .footer-logo-child {
+            margin-bottom: 42px;
+        }
+
+        .footer-logo-white-p {
+            color: #a9a9a9;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        .footer-logo-gold-p {
+            color: #FAD230;
+        }
+
+        .social-icon {
+            width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            margin-top: 25px;
+
+            i {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .footer-menu {
+        margin-bottom: 20px;
+
+        .footer-menu-header-p {
+            margin-bottom: 45px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 20px;
+            color: #fff;
+
+        }
+
+        .footer-menu-div {
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+
+                li {
+                    list-style: none;
+                    margin-bottom: 10px;
+
+                    a {
+                        color: #a9a9a9;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-address {
+        .footer-address-header-p {
+            margin-bottom: 45px;
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 20px;
+            color: #fff;
+        }
+
+        form {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+
+            .footer-address-input {
+                height: 39px;
+                border: none;
+                width: 67% !important;
+                font-weight: 400;
+                background: #fff;
+                padding-left: 20px;
+                border-radius: 0;
+                font-size: 13px;
+                padding: 10px 20px;
+                color: #999999;
+                border: 0px solid transparent;
+                font-family: "Montserrat", sans-serif;
+                outline: #FAD230;
+            }
+
+            .footer-addrees-input-a {
+                background-color: #FAD230;
+                width: 49px;
+                border-radius: 0px;
+                height: 39px;
+                border: none;
+                outline: none;
+                transition: 0.4s;
+
+                i {
+                    color: #fff;
+
+                }
+
+                &:hover {
+                    background: #000;
+                }
+            }
+        }
+
+        p {
+            color: #a9a9a9;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+    }
+
+    .footer-bottom-p {
+        color: #777777;
+        line-height: 1.7;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        a {
+            color: #FAD230;
+            margin-left: 10px;
+        }
+    }
+}

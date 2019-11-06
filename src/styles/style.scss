@@ -1,0 +1,25 @@
+// @import '~font-awesome/css/font-awesome.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+@import "vendors/bootstrap";
+@import "molecules/sprite";
+@import "~@fancyapps/fancybox/dist/jquery.fancybox.css";
+@import "/src/styles/burifont/stylesheet.css";
+@import "./buri_style/footer";
+@import "./buri_style/general";
+@import "./buri_style/header";
+@import "./buri_style/homepage";
+
+// Sprite Icons
+
+.icon {
+  display: inline-block;
+
+  &-hello {
+    @include sprite($hello);
+  }
+
+  &-world {
+    @include sprite($world);
+  }
+}
